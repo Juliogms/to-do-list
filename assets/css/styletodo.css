@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bungee+Shade&family=Comfortaa:wght@300;400;500;600;700&family=Fredoka:wght@300;400;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #45C4B0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDED00;
+    height: 600px;
+    width: 400px;
+    margin: 0px auto 30px auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    max-width: 50%;
+    
+}
+
+.title-page{
+    font-family: 'Bungee Shade', cursive;
+    color: #F20C78;
+    font-size: 35pt;
+    margin-top: 50px;
+}
+
+.content-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px auto;
+}
+
+.add-task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px auto;
+    background-color: #FBED6B;
+    height: 50px;
+    width: 320px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.add-task input {
+    height: 35px;
+    width: 300px;
+    border: 2px solid #c917ba;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.content-todo{
+    margin: 10px auto;
+    background-color: #FBED6B;
+    width: auto;
+    max-width: 400px;
+    height: auto;
+    border-radius: 9px;
+    padding: 15px;
+}
+
+.todo{
+    list-style: none;
+    font-family: 'Comfortaa';
+    font-size: 15pt;
+}
+
+.todo ul {
+    width: 100%;
+}
+
+.todo li {
+    margin-bottom: 16px;
+    border-bottom: 2px solid #fff;
+}
+
+.todo input {
+    margin-right: 10px;
+    width: initial;
+}
+
+input {
+    accent-color: #c917ba;
+}
+
+.todo li.complete {
+    text-decoration: line-through;
+    color:#c917ba;
+    cursor: not-allowed;
+}
+
+.todo button {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    float: right;
+    color: #fff;
+    background-color: #F20C78;
+    border: none;
+}
+
+ .todo button:hover {
+    background-color:#FFA2A1;
+    cursor: pointer;
+}
+
+
+
